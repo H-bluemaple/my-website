@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>个人主页</title>
+<style>
+  body {
+    margin: 0; font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+  }
+  nav {
+    width: 200px; background: #2c3e50; color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  nav h2 { margin-top: 0; }
+  nav ul {
+    list-style: none; padding: 0;
+  }
+  nav ul li {
+    margin: 15px 0;
+    cursor: pointer;
+    padding: 8px;
+    background-color: #34495e;
+    border-radius: 5px;
+  }
+  nav ul li:hover {
+    background-color: #1abc9c;
+  }
+  main {
+    flex-grow: 1;
+    padding: 30px;
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <h2>导航菜单</h2>
+    <ul>
+      <li onclick="location.href='games.html'">常玩的游戏</li>
+      <li onclick="location.href='anime.html'">喜欢的动漫</li>
+      <li onclick="location.href='ai.html'">常用的ai</li>
+      <li onclick="location.href='freetime.html'">有空的时间</li>
+      
+    </ul>
+  </nav>
+  <main>
+    <h1>欢迎来到我的个人主页</h1>
+    <p><strong>姓名：</strong>熊大</p>
+    <p><strong>出生日期：</strong>2026年13月32日</p>
+    <p>请选择左侧菜单了解更多信息！</p>
+  </main>
+</body>
+</html>
